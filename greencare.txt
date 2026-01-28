@@ -1,0 +1,12 @@
+# Greencare AI Project Information
+Project Name: Greencare AI: Personalized Plant Recommendation and Gardening Assistant
+Created Date: 2026-01-28
+
+Team:
+- Bathini Indra Sena Reddy (PM)
+- Dharshan G (Doc Lead)
+- Likhith S (Lead Dev)
+- Bindela Sai Vamshidar Reddy (QA Lead)
+
+Description:
+AI-powered application for plant recommendation (Transformer) and disease diagnosis (YOLOv8).

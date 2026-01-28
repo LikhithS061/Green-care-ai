@@ -1,59 +1,78 @@
 # Greencare AI: Personalized Plant Recommendation and Gardening Assistant
 
-**SEAD Project** – Greencare AI: Personalized Plant Recommendation and Gardening Assistant
+## SEAD Course Project
 
-## Course
+### Team Members
 
-Software Engineering and Agile Development (SEAD)
+| Name                        | Roll Number      | Role               |
+| --------------------------- | ---------------- | ------------------ |
+| Bathini Indra Sena Reddy    | 2023BCSE07AED076 | Project Manager    |
+| Dharshan G                  | 2023BCSE07AED071 | Documentation Lead |
+| Likhith S                   | 2023BCSE07AED061 | Lead Developer     |
+| Bindela Sai Vamshidar Reddy | 2023BCSE07AED049 | QA Lead            |
 
-## Instructor
-
-Mr. Sengottiyan
+---
 
 ## Project Description
 
-This project focuses on designing and documenting an intelligent AI-powered application that provides personalized plant recommendations based on environmental parameters (NPK, pH, location) and real-time disease diagnosis via image recognition using NLP and Machine Learning techniques.
+An AI-powered application that provides personalized plant recommendations based on environmental parameters (NPK, pH, location) and real-time disease diagnosis via image recognition.
 
-## Team Members & Roles
-
-| Name                        | Roll Number      | Role        |
-| --------------------------- | ---------------- | ----------- |
-| Bathini Indra Sena Reddy    | 2023BCSE07AED076 | Team Member |
-| Dharshan G                  | 2023BCSE07AED071 | Team Member |
-| Likhith S                   | 2023BCSE07AED061 | Team Member |
-| Bindela Sai Vamshidar Reddy | 2023BCSE07AED049 | Team Member |
+---
 
 ## Repository Structure
 
 ```
+Greencare-AI/
 ├── Exercise-1_SRS/
-│   ├── Project_Charter.md
-│   ├── SRS_Document.md
-│   ├── Stakeholder_Register.md
-│   └── Glossary.md
+│   ├── PM/                     # Project Manager deliverables
+│   └── Documentation-Lead/     # Documentation Lead deliverables
 ├── Exercise-2_System-Design/
-│   ├── Use_Case_Diagram.md
-│   ├── Class_Diagram.md
-│   ├── Sequence_Diagram.md
-│   ├── Activity_Diagram.md
-│   ├── Component_Diagram.md
-│   ├── Deployment_Diagram.md
-│   └── System_Design_Document.md
-├── Diagrams/
-│   └── (Exported diagram images)
+│   ├── Lead-Developer/         # Lead Developer deliverables
+│   └── QA-Lead/                # QA Lead deliverables
+├── Diagrams/                   # Exported diagram images
+├── Reference/                  # Original reference repository
 └── README.md
 ```
 
+---
+
 ## Technology Stack
 
-- **Frontend:** React.js (Web Interface)
-- **Backend:** Flask (Python API)
-- **AI/ML:** Transformer-based Recommendation Engine, YOLOv8 for Disease Detection
-- **Database:** MongoDB
-- **Storage:** AWS S3
+| Layer               | Technology        |
+| ------------------- | ----------------- |
+| Frontend            | React.js, PWA     |
+| Backend             | Flask (Python)    |
+| AI - Recommendation | Transformer Model |
+| AI - Diagnosis      | YOLOv8            |
+| Database            | MongoDB Atlas     |
+| Storage             | AWS S3            |
+| Hosting             | AWS EC2           |
 
-## Submission Details
+---
 
-- **Course:** SEAD
-- **Submission Type:** GitHub Repository
-- **Submission Date:** 27 January 2026
+## Exercises Completed
+
+### Exercise 1: Project Initiation & SRS
+
+- Project Selection and Roles (P01)
+- Team Agreement (P02)
+- Problem Statement (P03)
+- Stakeholder Analysis (P04-P06)
+- Scope Definition (P07-P09)
+- SRS Documentation (P10-P13)
+- Glossary (P15)
+- Project Charter (P16)
+- Stakeholder Register (P17)
+- Requirements Signoff (P19)
+
+### Exercise 2: System Design
+
+- CASE Tool Setup (P20)
+- Team Workspace (P21-P22)
+- Use Case Modeling (P23-P26)
+- Class Diagram (P27-P29)
+- Sequence Diagram (P30-P31)
+- Alternative Flows (P32)
+- Activity Diagram (P33-P34)
+- Component Diagram (P35)
+- Deployment Diagram (P36)
